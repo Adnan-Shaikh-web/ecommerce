@@ -1,0 +1,74 @@
+.Signup {
+  height: 100vh;
+  background: rgb(255, 244, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Signup .login-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 10px 25px;
+  background-color: #fd4349;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.Signup .login-btn:hover {
+  background-color: #fd0008;
+}
+.Signup .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px; */
+}
+
+.Signup .container h3 {
+  font-size: 1.9rem;
+  color: var(--text-primary);
+  font-family: var(--header-text);
+  margin-bottom: 10px;
+}
+
+.Signup .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Signup .container form input {
+  margin: 5px;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+.Signup .container form .submit-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-self: center;
+  padding: 5px 20px;
+}
+
+.Signup .container .alert {
+  display: none;
+  background-color: #f8d7da;
+  color: #a22029;
+  padding: 10px;
+  font-family: var(--notification-text);
+  font-weight: var(--medium-font);
+}
+
+.Signup .container .message {
+  background-color: #d1e7dd;
+  color: #0f729b;
+  padding: 10px;
+  font-family: var(--notification-text);
+  font-weight: var(--medium-font);
+  display: none;
+}
